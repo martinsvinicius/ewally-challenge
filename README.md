@@ -27,6 +27,10 @@ Para executa-los, basta rodar o comando:
   npm run test
 ```
 
+Todos os testes geram porcentagens de cobertura do código (test coverage).
+
+Após rodar os testes, é possível verificar a cobertura do código já no terminal ou na pasta `coverage/lcov-report`
+
 ## Tecnologias Utilizadas
 
 - [Docker](https://www.docker.com/)
