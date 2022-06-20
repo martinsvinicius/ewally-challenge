@@ -2,6 +2,14 @@
 
 ## Como iniciar o projeto
 
+Antes de rodar o projeto, é necessário instalar as dependências.
+
+```sh
+yarn install
+# ou
+npm install
+```
+
 - Docker Compose:
   A aplicação foi construída utilizando o Docker e docker-compose. Para iniciar o projeto através dessa ferramenta, basta executar o comando:
   ```sh
@@ -10,9 +18,9 @@
 - Com `yarn` ou `npm`:
   Também é possível iniciar o projeto através dos comandos:
   ```sh
-  yarn install && yarn dev
+  yarn dev
   # ou
-  npm install && npm run dev
+  npm run dev
   ```
 
 ## Testes Unitários
