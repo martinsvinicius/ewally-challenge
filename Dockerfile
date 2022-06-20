@@ -1,5 +1,5 @@
 # image to create the container
-FROM node
+FROM node:lts
 
 # work directory
 WORKDIR /usr/app
